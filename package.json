@@ -1,0 +1,30 @@
+{
+  "name": "web-diff",
+  "version": "1.0.0",
+  "description": "Visually diff web pages",
+  "author": "Hiroki Osame <hiroki.osame@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/web-diff.js"
+  },
+  "bin": {
+    "web-diff": "./bin/web-diff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privatenumber/web-diff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/privatenumber/web-diff/issues"
+  },
+  "homepage": "https://github.com/privatenumber/web-diff#readme",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "listr": "^0.14.3",
+    "pixelmatch": "^5.0.2",
+    "pngjs": "^3.4.0",
+    "puppeteer": "^1.18.1",
+    "yargs": "^13.3.0"
+  }
+}
