@@ -1,7 +1,14 @@
 {
   "name": "web-diff",
   "version": "1.0.0",
-  "description": "Visually diff web pages",
+  "description": "Visually diff two URLs",
+  "keywords": [
+    "visual",
+    "diff",
+    "web",
+    "pages",
+    "urls"
+  ],
   "author": "Hiroki Osame <hiroki.osame@gmail.com>",
   "main": "index.js",
   "scripts": {
